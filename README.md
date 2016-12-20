@@ -1,9 +1,14 @@
 # Win2d Sprite Demo
 
 This demo is a performance test application for Win2d Drawing Modes.
-I wrote it so that I could test the performance of the game loop on various UWP devices.
+I wrote it so that I could test the performance of the game loop on various UWP devices with a single program.
 
-It exercises the game loop, using the Update event to calculate the position of a number of objects, and draws them in the Draw event.
+By twiddling variables you control how much work the game loop does.
+Performance is observed via the colour of objects on screen and a frame rate counter.
+
+The Update event calculates the position of objects.
+The Draw event draws objects and debug information.
+
 Objects are drawn in opaque blue, but turn opaque red when Win2d reports that it is running slowly.
 
 ![Screenshot](/assets/screen.png "screenshot of the application running")
