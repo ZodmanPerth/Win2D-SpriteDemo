@@ -6,7 +6,7 @@ I wrote it so that I could test the performance of the game loop on various UWP 
 It exercises the game loop, using the Update event to calculate the position of a number of objects, and draws them in the Draw event.
 Objects are drawn in opaque blue, but turn opaque red when Win2d reports that it is running slowly.
 
-![Screenshot](/assets/screenshot.png "screenshot of the application running")
+![Screenshot](/assets/screen.png "screenshot of the application running")
 
 Display of debug information can be toggled using the checkbox in the top left.
 The debug information includes the frames per second of the application.
