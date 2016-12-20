@@ -8,9 +8,6 @@ Objects are drawn in opaque blue, but turn opaque red when Win2d reports that it
 
 ![Screenshot](/assets/screen.png "screenshot of the application running")
 
-Display of debug information can be toggled using the checkbox in the top left.
-The debug information includes the frames per second of the application.
-
 A menu is displayed by selecting the hamburger menu in the top left.
 
 ![Screenshot](/assets/menu.png "screenshot of the menu when open")
@@ -25,3 +22,6 @@ Items on the menu allow the control over various parameters:
   * SpriteBatch - draws using a sprite batch
 
 The sprites are square so you can tell the difference when the menu is closed.
+
+Display of debug information is toggled using the checkbox in the top left.
+The debug information includes the frames per second of the application.
